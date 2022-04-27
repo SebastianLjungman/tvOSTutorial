@@ -7,6 +7,16 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		032CAFDB281834040058BE66 /* ExperimentalView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 032CAFDA281834040058BE66 /* ExperimentalView.swift */; };
+		033A37BD2816D75D0043D1F7 /* ModelData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 033A37BC2816D75D0043D1F7 /* ModelData.swift */; };
+		0345618B2817D0F600A94793 /* LandmarkRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0345618A2817D0F600A94793 /* LandmarkRow.swift */; };
+		0345618D2817E23E00A94793 /* LandmarkList.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0345618C2817E23E00A94793 /* LandmarkList.swift */; };
+		0345618F2817E48700A94793 /* LandmarkDetail.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0345618E2817E48700A94793 /* LandmarkDetail.swift */; };
+		0361D6C8281944D400674A62 /* FavoriteButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0361D6C7281944D400674A62 /* FavoriteButton.swift */; };
+		036E04302813F7160051292D /* landmarkData.json in Resources */ = {isa = PBXBuildFile; fileRef = 036E042F2813F7160051292D /* landmarkData.json */; };
+		036E04312813F7160051292D /* landmarkData.json in Resources */ = {isa = PBXBuildFile; fileRef = 036E042F2813F7160051292D /* landmarkData.json */; };
+		036E04322813F7160051292D /* landmarkData.json in Resources */ = {isa = PBXBuildFile; fileRef = 036E042F2813F7160051292D /* landmarkData.json */; };
+		036E04342813F81F0051292D /* Landmark.swift in Sources */ = {isa = PBXBuildFile; fileRef = 036E04332813F81F0051292D /* Landmark.swift */; };
 		03ED86662812EB57000CBE61 /* tvTESTApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 03ED86652812EB57000CBE61 /* tvTESTApp.swift */; };
 		03ED86682812EB57000CBE61 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 03ED86672812EB57000CBE61 /* ContentView.swift */; };
 		03ED866A2812EB5A000CBE61 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 03ED86692812EB5A000CBE61 /* Assets.xcassets */; };
@@ -14,6 +24,8 @@
 		03ED86772812EB5A000CBE61 /* tvTESTTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 03ED86762812EB5A000CBE61 /* tvTESTTests.swift */; };
 		03ED86812812EB5A000CBE61 /* tvTESTUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 03ED86802812EB5A000CBE61 /* tvTESTUITests.swift */; };
 		03ED86832812EB5A000CBE61 /* tvTESTUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 03ED86822812EB5A000CBE61 /* tvTESTUITestsLaunchTests.swift */; };
+		03ED86922812FE22000CBE61 /* CircleImage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 03ED86912812FE22000CBE61 /* CircleImage.swift */; };
+		03ED869428130B24000CBE61 /* MapView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 03ED869328130B24000CBE61 /* MapView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,16 +46,26 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		03ED86622812EB57000CBE61 /* tvTEST.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = tvTEST.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		032CAFDA281834040058BE66 /* ExperimentalView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExperimentalView.swift; sourceTree = "<group>"; };
+		033A37BC2816D75D0043D1F7 /* ModelData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ModelData.swift; sourceTree = "<group>"; };
+		0345618A2817D0F600A94793 /* LandmarkRow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LandmarkRow.swift; sourceTree = "<group>"; };
+		0345618C2817E23E00A94793 /* LandmarkList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LandmarkList.swift; sourceTree = "<group>"; };
+		0345618E2817E48700A94793 /* LandmarkDetail.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LandmarkDetail.swift; sourceTree = "<group>"; };
+		0361D6C7281944D400674A62 /* FavoriteButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FavoriteButton.swift; sourceTree = "<group>"; };
+		036E042F2813F7160051292D /* landmarkData.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = landmarkData.json; sourceTree = "<group>"; };
+		036E04332813F81F0051292D /* Landmark.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Landmark.swift; sourceTree = "<group>"; };
+		03ED86622812EB57000CBE61 /* Landmarks.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Landmarks.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		03ED86652812EB57000CBE61 /* tvTESTApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = tvTESTApp.swift; sourceTree = "<group>"; };
 		03ED86672812EB57000CBE61 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		03ED86692812EB5A000CBE61 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		03ED866C2812EB5A000CBE61 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
-		03ED86722812EB5A000CBE61 /* tvTESTTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = tvTESTTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		03ED86722812EB5A000CBE61 /* LandmarksTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LandmarksTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		03ED86762812EB5A000CBE61 /* tvTESTTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = tvTESTTests.swift; sourceTree = "<group>"; };
-		03ED867C2812EB5A000CBE61 /* tvTESTUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = tvTESTUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		03ED867C2812EB5A000CBE61 /* LandmarksUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LandmarksUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		03ED86802812EB5A000CBE61 /* tvTESTUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = tvTESTUITests.swift; sourceTree = "<group>"; };
 		03ED86822812EB5A000CBE61 /* tvTESTUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = tvTESTUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		03ED86912812FE22000CBE61 /* CircleImage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CircleImage.swift; sourceTree = "<group>"; };
+		03ED869328130B24000CBE61 /* MapView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -71,6 +93,54 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		033A37BE281736680043D1F7 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				03ED86672812EB57000CBE61 /* ContentView.swift */,
+				0361D6C9281946EE00674A62 /* Helpers */,
+				0361D6CA2819470200674A62 /* Landmarks */,
+				032CAFDA281834040058BE66 /* ExperimentalView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		033A37BF281736A70043D1F7 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				033A37BC2816D75D0043D1F7 /* ModelData.swift */,
+				036E04332813F81F0051292D /* Landmark.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		033A37C0281737C90043D1F7 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				036E042F2813F7160051292D /* landmarkData.json */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		0361D6C9281946EE00674A62 /* Helpers */ = {
+			isa = PBXGroup;
+			children = (
+				03ED86912812FE22000CBE61 /* CircleImage.swift */,
+				03ED869328130B24000CBE61 /* MapView.swift */,
+				0361D6C7281944D400674A62 /* FavoriteButton.swift */,
+			);
+			path = Helpers;
+			sourceTree = "<group>";
+		};
+		0361D6CA2819470200674A62 /* Landmarks */ = {
+			isa = PBXGroup;
+			children = (
+				0345618A2817D0F600A94793 /* LandmarkRow.swift */,
+				0345618C2817E23E00A94793 /* LandmarkList.swift */,
+				0345618E2817E48700A94793 /* LandmarkDetail.swift */,
+			);
+			path = Landmarks;
+			sourceTree = "<group>";
+		};
 		03ED86592812EB57000CBE61 = {
 			isa = PBXGroup;
 			children = (
@@ -84,9 +154,9 @@
 		03ED86632812EB57000CBE61 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				03ED86622812EB57000CBE61 /* tvTEST.app */,
-				03ED86722812EB5A000CBE61 /* tvTESTTests.xctest */,
-				03ED867C2812EB5A000CBE61 /* tvTESTUITests.xctest */,
+				03ED86622812EB57000CBE61 /* Landmarks.app */,
+				03ED86722812EB5A000CBE61 /* LandmarksTests.xctest */,
+				03ED867C2812EB5A000CBE61 /* LandmarksUITests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -95,8 +165,10 @@
 			isa = PBXGroup;
 			children = (
 				03ED86652812EB57000CBE61 /* tvTESTApp.swift */,
-				03ED86672812EB57000CBE61 /* ContentView.swift */,
+				033A37BE281736680043D1F7 /* Views */,
+				033A37BF281736A70043D1F7 /* Model */,
 				03ED86692812EB5A000CBE61 /* Assets.xcassets */,
+				033A37C0281737C90043D1F7 /* Resources */,
 				03ED866B2812EB5A000CBE61 /* Preview Content */,
 			);
 			path = tvTEST;
@@ -130,9 +202,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		03ED86612812EB57000CBE61 /* tvTEST */ = {
+		03ED86612812EB57000CBE61 /* Landmarks */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 03ED86862812EB5A000CBE61 /* Build configuration list for PBXNativeTarget "tvTEST" */;
+			buildConfigurationList = 03ED86862812EB5A000CBE61 /* Build configuration list for PBXNativeTarget "Landmarks" */;
 			buildPhases = (
 				03ED865E2812EB57000CBE61 /* Sources */,
 				03ED865F2812EB57000CBE61 /* Frameworks */,
@@ -142,14 +214,14 @@
 			);
 			dependencies = (
 			);
-			name = tvTEST;
+			name = Landmarks;
 			productName = tvTEST;
-			productReference = 03ED86622812EB57000CBE61 /* tvTEST.app */;
+			productReference = 03ED86622812EB57000CBE61 /* Landmarks.app */;
 			productType = "com.apple.product-type.application";
 		};
-		03ED86712812EB5A000CBE61 /* tvTESTTests */ = {
+		03ED86712812EB5A000CBE61 /* LandmarksTests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 03ED86892812EB5A000CBE61 /* Build configuration list for PBXNativeTarget "tvTESTTests" */;
+			buildConfigurationList = 03ED86892812EB5A000CBE61 /* Build configuration list for PBXNativeTarget "LandmarksTests" */;
 			buildPhases = (
 				03ED866E2812EB5A000CBE61 /* Sources */,
 				03ED866F2812EB5A000CBE61 /* Frameworks */,
@@ -160,14 +232,14 @@
 			dependencies = (
 				03ED86742812EB5A000CBE61 /* PBXTargetDependency */,
 			);
-			name = tvTESTTests;
+			name = LandmarksTests;
 			productName = tvTESTTests;
-			productReference = 03ED86722812EB5A000CBE61 /* tvTESTTests.xctest */;
+			productReference = 03ED86722812EB5A000CBE61 /* LandmarksTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
-		03ED867B2812EB5A000CBE61 /* tvTESTUITests */ = {
+		03ED867B2812EB5A000CBE61 /* LandmarksUITests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 03ED868C2812EB5A000CBE61 /* Build configuration list for PBXNativeTarget "tvTESTUITests" */;
+			buildConfigurationList = 03ED868C2812EB5A000CBE61 /* Build configuration list for PBXNativeTarget "LandmarksUITests" */;
 			buildPhases = (
 				03ED86782812EB5A000CBE61 /* Sources */,
 				03ED86792812EB5A000CBE61 /* Frameworks */,
@@ -178,9 +250,9 @@
 			dependencies = (
 				03ED867E2812EB5A000CBE61 /* PBXTargetDependency */,
 			);
-			name = tvTESTUITests;
+			name = LandmarksUITests;
 			productName = tvTESTUITests;
-			productReference = 03ED867C2812EB5A000CBE61 /* tvTESTUITests.xctest */;
+			productReference = 03ED867C2812EB5A000CBE61 /* LandmarksUITests.xctest */;
 			productType = "com.apple.product-type.bundle.ui-testing";
 		};
 /* End PBXNativeTarget section */
@@ -206,7 +278,7 @@
 					};
 				};
 			};
-			buildConfigurationList = 03ED865D2812EB57000CBE61 /* Build configuration list for PBXProject "tvTEST" */;
+			buildConfigurationList = 03ED865D2812EB57000CBE61 /* Build configuration list for PBXProject "Landmarks" */;
 			compatibilityVersion = "Xcode 13.0";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -219,9 +291,9 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				03ED86612812EB57000CBE61 /* tvTEST */,
-				03ED86712812EB5A000CBE61 /* tvTESTTests */,
-				03ED867B2812EB5A000CBE61 /* tvTESTUITests */,
+				03ED86612812EB57000CBE61 /* Landmarks */,
+				03ED86712812EB5A000CBE61 /* LandmarksTests */,
+				03ED867B2812EB5A000CBE61 /* LandmarksUITests */,
 			);
 		};
 /* End PBXProject section */
@@ -233,6 +305,7 @@
 			files = (
 				03ED866D2812EB5A000CBE61 /* Preview Assets.xcassets in Resources */,
 				03ED866A2812EB5A000CBE61 /* Assets.xcassets in Resources */,
+				036E04302813F7160051292D /* landmarkData.json in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -240,6 +313,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				036E04312813F7160051292D /* landmarkData.json in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -247,6 +321,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				036E04322813F7160051292D /* landmarkData.json in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -257,8 +332,17 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				032CAFDB281834040058BE66 /* ExperimentalView.swift in Sources */,
 				03ED86682812EB57000CBE61 /* ContentView.swift in Sources */,
+				03ED869428130B24000CBE61 /* MapView.swift in Sources */,
 				03ED86662812EB57000CBE61 /* tvTESTApp.swift in Sources */,
+				0345618D2817E23E00A94793 /* LandmarkList.swift in Sources */,
+				0345618F2817E48700A94793 /* LandmarkDetail.swift in Sources */,
+				03ED86922812FE22000CBE61 /* CircleImage.swift in Sources */,
+				036E04342813F81F0051292D /* Landmark.swift in Sources */,
+				0345618B2817D0F600A94793 /* LandmarkRow.swift in Sources */,
+				0361D6C8281944D400674A62 /* FavoriteButton.swift in Sources */,
+				033A37BD2816D75D0043D1F7 /* ModelData.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -284,12 +368,12 @@
 /* Begin PBXTargetDependency section */
 		03ED86742812EB5A000CBE61 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 03ED86612812EB57000CBE61 /* tvTEST */;
+			target = 03ED86612812EB57000CBE61 /* Landmarks */;
 			targetProxy = 03ED86732812EB5A000CBE61 /* PBXContainerItemProxy */;
 		};
 		03ED867E2812EB5A000CBE61 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 03ED86612812EB57000CBE61 /* tvTEST */;
+			target = 03ED86612812EB57000CBE61 /* Landmarks */;
 			targetProxy = 03ED867D2812EB5A000CBE61 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
@@ -473,7 +557,7 @@
 				SWIFT_EMIT_LOC_STRINGS = NO;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = 3;
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/tvTEST.app/tvTEST";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Landmarks.app/Landmarks";
 				TVOS_DEPLOYMENT_TARGET = 15.4;
 			};
 			name = Debug;
@@ -492,7 +576,7 @@
 				SWIFT_EMIT_LOC_STRINGS = NO;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = 3;
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/tvTEST.app/tvTEST";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Landmarks.app/Landmarks";
 				TVOS_DEPLOYMENT_TARGET = 15.4;
 			};
 			name = Release;
@@ -534,7 +618,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		03ED865D2812EB57000CBE61 /* Build configuration list for PBXProject "tvTEST" */ = {
+		03ED865D2812EB57000CBE61 /* Build configuration list for PBXProject "Landmarks" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				03ED86842812EB5A000CBE61 /* Debug */,
@@ -543,7 +627,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		03ED86862812EB5A000CBE61 /* Build configuration list for PBXNativeTarget "tvTEST" */ = {
+		03ED86862812EB5A000CBE61 /* Build configuration list for PBXNativeTarget "Landmarks" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				03ED86872812EB5A000CBE61 /* Debug */,
@@ -552,7 +636,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		03ED86892812EB5A000CBE61 /* Build configuration list for PBXNativeTarget "tvTESTTests" */ = {
+		03ED86892812EB5A000CBE61 /* Build configuration list for PBXNativeTarget "LandmarksTests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				03ED868A2812EB5A000CBE61 /* Debug */,
@@ -561,7 +645,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		03ED868C2812EB5A000CBE61 /* Build configuration list for PBXNativeTarget "tvTESTUITests" */ = {
+		03ED868C2812EB5A000CBE61 /* Build configuration list for PBXNativeTarget "LandmarksUITests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				03ED868D2812EB5A000CBE61 /* Debug */,
